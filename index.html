@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="https://unpkg.com/xp.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="top">
+            
+                <div class="window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Command Prompt</div>
+                        <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body">
+                        <pre>L + Ratio👍&#10094;<p1 id="l">192.168.23.56😈😈</p1></pres>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="base">
+                <div class="main">
+                    <img class="image" src="/stuff/detroiit.jpg" alt="">
+                    <p><button onclick="makeAlive()">Cant Have Shit On Detroit😫</button></p>
+                </div>
+                <div class="main">
+                    <img class="image" src="/stuff/tod.jfif" alt="">
+                    <p><button onclick="makeAlive()">Hey Todd :D , kys😊</button></p>
+                </div>
+                <div class="main">
+                    <img class="image" src="/stuff/wandro.jfif" alt="">
+                    <p><button onclick="makeAlive()">Wandro WTF ?!😡😡</button></p>
+                </div>
+            </div>
+            <div id="error" class="error">
+                <div class="window">
+                    <div class="title-bar">
+                        <div class="title-bar-controls">
+                             no
+                            <button aria-label="Minimize"></button>
+                            <button aria-label="Maximize"></button>
+                            <button onclick="DoSomething()" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <p class="hi" id="hi">kys😊</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    function DoSomething(){
+        document.getElementById("error").style = "display: none;"
+    }
+    function makeAlive(){
+        document.getElementById("error").style = "display: block;"
+    }
+</script>
